@@ -9,7 +9,15 @@
   "bin": {
     "create-fibos-dapp":"./bin/index.js"
   },
-  "author": "",
+  "author": "yuanjunliang",
+  "keywords": [
+    "fibos",
+    "dapp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yuanjunliang/create-fibos-dapp.git"
+  },
   "license": "ISC",
   "dependencies": {
     "chalk": "^2.4.1",

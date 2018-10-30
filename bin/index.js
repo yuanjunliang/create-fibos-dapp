@@ -9,7 +9,7 @@ program.version('1.0.0', '-v, --version')
        .command('init <name>')
        .action((name) => {
         //    console.log(name);
-        download('https://github.com/yuanjunliang/create-fibos-dapp.git', name, {clone: true}, (err) => {
+        download('https://github.com/yuanjunliang/create-fibos-dapp.git#master', name, {clone: true}, (err) => {
 				console.log(err ? 'Error' : 'Success')
 		   })
        });
